@@ -1,0 +1,36 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "categoria": "FRONT END",
+      "titulo": "Qué Significa Pensar Como Programador",
+      "img": "https://i.ytimg.com/vi/ov7vA5HFe6w/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis incidunt corrupti dignissimos. Natus dolorem ab, tempora eligendi ducimus maxime obcaecati atque nostrum harum labore reiciendis minus quis soluta ipsum."
+    },
+    {
+      "id": "2",
+      "titulo": "Spring Framework. ¿Qué es ?",
+      "categoria": "BACK END",
+      "img": "https://i.ytimg.com/vi/t-iqt1b2qqk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis incidunt corrupti dignissimos. Natus dolorem ab, tempora eligendi ducimus maxime obcaecati atque nostrum harum labore reiciendis minus quis soluta ipsum."
+    },
+    {
+      "id": "c3e0",
+      "titulo": "Tus primeros pasos estudiando programación",
+      "categoria": "FRONT END",
+      "urlVideo": "https://www.youtube.com/watch?v=5K97MfYA1sw",
+      "descripcion": "Quiero entrar en el mundo de la programción pero, ¿qué debo estudiar primero?, ¿necesito tener un título universitario para encontrar empleo?, ¿hay edad máxima para poder empezar a aprender a programar?\\n\\nEstas son algunas de las preguntas que la instructora Front End de Alura Latam, Jeanmarie Quijada, contesta en este video para ayudarte a dar tus primeros pasos en el mundo de la programación.",
+      "img": "https://i.ytimg.com/vi/5K97MfYA1sw/maxresdefault.jpg"
+    },
+    {
+      "id": "371a",
+      "titulo": "¿Sabes cómo organizar tu rutina de estudio? Descubre aquí",
+      "categoria": "INNOVACIÓN Y GESTIÓN",
+      "img": "https://i.ytimg.com/vi/3mDnrL8YVaA/maxresdefault.jpg",
+      "urlVideo": "https://www.youtube.com/watch?v=3mDnrL8YVaA",
+      "descripcion": "¿Sabes cómo organizar tu rutina de estudio? En este video vamos a ver la importancia de tener un horario de estudio que se ajuste a la disponibilidad real de tiempo de cada estudiante, así como la relevancia de la disciplina en seguir un plan de estudio dentro de los procesos de aprendizaje."
+    }
+  ]
+}

@@ -49,8 +49,12 @@ const Home = () => {
             {categories.map((categories, index) => <VideoList
                 data={categories}
                 key={index}
-                onEdit={setVideoEdit}
-                onSelectedVideo={setSelectedVideo}
+                onEdit={edit => setVideoEdit(edit)}
+                onSelectedVideo={video => {
+                    setSelectedVideo(video)
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                }}
+                selectedVideo={selectedVideo}
             />)
             }
         </main>

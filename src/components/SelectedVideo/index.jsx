@@ -116,7 +116,7 @@ const SelectedVideo = ({ video, $catcolor }) => {
                 <span className="category" style={bgColor} >{categoria}</span>
                 <p className="title desk">{titulo}</p>
                 <p className="desc desk">{descripcion}</p>
-                <p className="cta"><em><b>-- Da clic en la imagen para saber más --></b></em></p>
+                <p className="cta"><em><b>-- Da clic en la imagen para saber más --&gt;</b></em></p>
             </div>
             <div className="img-video-container">
                 <a className="url_vid" target="_blank" href={url}>

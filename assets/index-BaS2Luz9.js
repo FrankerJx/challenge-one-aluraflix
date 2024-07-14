@@ -709,7 +709,7 @@ padding: 10px;
     display: none;
 
 }
-`,al=[{category:"FRONT END",mainColor:"#6BD1FF",colorAlfa:"rgba(107, 209, 255, .7)"},{category:"BACK END",mainColor:"#00c86f",colorAlfa:"rgba(0, 200, 111, .7)"},{category:"INNOVACIÓN Y GESTIÓN",mainColor:"#FFBA05",colorAlfa:"rgba(255, 186, 5, .7)"}],iv=()=>{const[e,t]=N.useState(null),[n,r]=N.useState(null),o=l=>{const i=al.find(u=>u.category===l);return i?{mainColor:i.mainColor,colorAlfa:i.colorAlfa}:{}};return g.jsxs(g.Fragment,{children:[g.jsx(xs,{backgroundColor:"#262626"}),g.jsxs("main",{children:[g.jsx($d,{selectedVideo:n,categoryColor:o}),al.map((l,i)=>g.jsx(qg,{data:l,onEdit:t,onSelectedVideo:r},i))]}),e&&g.jsx(Qg,{video:e,onClose:()=>t(null)}),g.jsx(vs,{}),g.jsx(lv,{})]})},uv=V.section`
+`,al=[{category:"FRONT END",mainColor:"#6BD1FF",colorAlfa:"rgba(107, 209, 255, .7)"},{category:"BACK END",mainColor:"#00c86f",colorAlfa:"rgba(0, 200, 111, .7)"},{category:"INNOVACIÓN Y GESTIÓN",mainColor:"#FFBA05",colorAlfa:"rgba(255, 186, 5, .7)"}],iv=()=>{const[e,t]=N.useState(null),[n,r]=N.useState(null),o=l=>{const i=al.find(u=>u.category===l);return i?{mainColor:i.mainColor,colorAlfa:i.colorAlfa}:{}};return g.jsxs(g.Fragment,{children:[g.jsx(xs,{backgroundColor:"#262626"}),g.jsxs("main",{children:[g.jsx($d,{selectedVideo:n,categoryColor:o}),al.map((l,i)=>g.jsx(qg,{data:l,onEdit:u=>t(u),onSelectedVideo:u=>{r(u),window.scrollTo({top:0,behavior:"smooth"})},selectedVideo:n},i))]}),e&&g.jsx(Qg,{video:e,onClose:()=>t(null)}),g.jsx(vs,{}),g.jsx(lv,{})]})},uv=V.section`
 display: flex;
 justify-content: center;
 align-items: center;
